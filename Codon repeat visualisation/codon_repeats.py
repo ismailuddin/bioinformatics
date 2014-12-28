@@ -33,12 +33,12 @@ def parse_FASTA(filename):
 # 3rd argument : 'matplotlib' to use Matplotlib plotting interface
 #                'plotly' to use Internet-based Plot.ly plotting interface
 
-fasta = sys.argv[1]					# Path for .FASTA file 
-seq_id = int(sys.argv[2])			# Sequence ID 
+fasta = sys.argv[1]					# Path for .FASTA file
+seq_id = int(sys.argv[2])			# Sequence ID
 fasta_dict = parse_FASTA(fasta)		# Dictionary from parsed .FASTA file
 headers = fasta_dict.keys()			# Headers from .FASTA file
 sequences = fasta_dict.values()		# Sequences from .FASTA file
-seq = sequences[seq_id]				# String for specified sequence 
+seq = sequences[seq_id]				# String for specified sequence
 
 
 
@@ -115,7 +115,7 @@ else:
 	# from http://plot.ly/ upon registration
 
 	#           username     API key
-	py.sign_in('rugrln', 'esrud698qs')
+	py.sign_in('<<USERNAME>>', '<<API KEY>>')
 
 	def make_annotation(x_in,y_in):
 		x_offset = +0.05
