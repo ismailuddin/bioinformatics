@@ -2,6 +2,7 @@
 # A novel tool to allow the graphical visualisation of
 # successive codon rpteats with a DNA sequence
 # (C) 2014, Ismail Uddin, ismail.sameeuddin@gmail.com
+# www.scienceexposure.com
 
 import sys
 
