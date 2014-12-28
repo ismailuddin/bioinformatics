@@ -25,4 +25,4 @@ As the Plot.ly package involves uploading the data to their servers for hosting,
     py.sign_in('<<USERNAME>>', '<<API KEY>>')
 
 ```
-This tool was featured in a blog post at http://www.scienceexposure.com/.
+This tool was featured in a blog post at http://www.scienceexposure.com/coding/codon-repeats-data-visualisation-tool/.
