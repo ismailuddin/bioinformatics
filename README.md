@@ -1,4 +1,4 @@
 bioinformatics
 ==============
 
-Repository of bioinformatics scripts for analysing bio-data.
+Various scripts written in Python and Ruby for performing simple bioinformatics / computational analyses on biological data.
